@@ -1,87 +1,101 @@
-=========================================================================
-PROJECT: BALANCE ZERO - ANALYTICAL DECISION ENGINE
-Problem Statement 3 | Track 1
-Team/Author: bheemreddypoojitha224 / Bheemreddy Poojitha
-Faculty Mentor: Dr. Y. Krishna Bhargavi
-=========================================================================
+# ⚖️ BALANCE ZERO - Analytical Decision Engine
+**Problem Statement 3 | Track 1: Literature-Based Formula Optimization**
 
-1. OVERVIEW
+> **Team:** bheemreddypoojitha224 / Bheemreddy Poojitha  
+> **Faculty Mentor:** Dr. Y. Krishna Bhargavi
 
 ---
 
-BalanceZero is a physics-informed computational engine designed to
-optimize Mass Balance (MB) calculations for forced degradation studies.
+## 📖 1. Overview
+**BalanceZero** is a physics-informed computational engine designed to optimize **Mass Balance (MB)** calculations for forced degradation studies.
 
-It utilizes Monte Carlo simulation (n=10,000) to stress-test standard
-formulas against assay noise and volatility. The system implements the
-"Adaptive Mass Balance Score (AMBS)" logic gate to automatically select
-the most scientifically accurate formula for any given degradation profile.
-
-2. KEY FEATURES
+It utilizes **Monte Carlo simulation (n=10,000)** to stress-test standard formulas against assay noise and volatility. The system implements the **"Adaptive Mass Balance Score (AMBS)"** logic gate to automatically select the most scientifically accurate formula for any given degradation profile.
 
 ---
 
-[+] AUTOMATIC VERIFICATION
-Self-checks against the NEST Novartis Problem Statement values (11.3%
-Deficiency) before running to ensure accuracy.
+## 🚀 2. Key Features
 
-[+] SYNTHETIC DATA GENERATION
-Creates 10,000 realistic clinical scenarios (varying purity, stress,
-and volatility) to validate the logic.
+### ✅ Automatic Verification
+Self-checks against the **NEST Novartis Problem Statement values (11.3% Deficiency)** before running to ensure mathematical accuracy.
 
-[+] COMPREHENSIVE REPORTING
-The project includes a full suite of deliverables: - Interactive UI Dashboard - Recommendation Matrix - Comparative Analysis Report - Scientific Figures (Scatter plots, Heatmaps, Sensitivity Curves)
+### 🧪 Synthetic Data Generation
+Creates **10,000 realistic clinical scenarios** (varying purity, stress, and volatility) to validate the logic against edge cases.
 
-3. FOLDER CONTENTS
-
----
-
-> 01_Code_Base/
-> |-- BalanceZero_Engine.py (The master logic script)
-> |-- requirements.txt (List of required Python libraries)
-> |-- README.txt (This file)
-
-> 02_Reports/
-> |-- Whitepaper_bheemreddypoojitha224_PS3.pdf (Detailed Scientific Report)
-> |-- Presentation_bheemreddypoojitha224_PS3_Round2.pdf (Summary Deck)
-> |-- Recommendation_matrix.pdf (Strategic Decision Matrix)
-> |-- analysis_report.pdf (Detailed Comparative Analysis)
-
-> 03_Results/
-> |-- Simulation_Dataset.csv (Evidence data of 10,000 runs)
-> |-- Validation_Log.txt (Verification proof)
-> |-- BalanceZero_Dashboard.html (UI Output)
-> |-- Figures/ (Scientific plots folder)
-
-4. HOW TO RUN THE CODE
-
-Prerequisites:
-Python 3.8 or higher
-Libraries listed in requirements.txt
+### 📊 Comprehensive Reporting
+The project generates a full suite of deliverables:
+* **Interactive UI Dashboard** (HTML)
+* **Recommendation Matrix** (Strategic Decision Framework)
+* **Comparative Analysis Report**
+* **Scientific Figures** (Scatter plots, Heatmaps, Sensitivity Curves)
 
 ---
 
-STEP 1: Install Dependencies
-Open a terminal/command prompt in the "01_Code_Base" folder and run:
+## 📂 3. Folder Contents
+
+```text
+📦 bheemreddypoojitha224_Novartis_PS3
+ ┣ 📂 01_Code_Base
+ ┃ ┣ 📜 BalanceZero_Engine.py       # The master logic script
+ ┃ ┣ 📜 requirements.txt            # List of dependencies
+ ┃ ┗ 📜 README.md                   # This file
+ ┃
+ ┣ 📂 02_Reports
+ ┃ ┣ 📄 Whitepaper_...pdf           # Detailed Scientific Report
+ ┃ ┣ 📄 Presentation_...pdf         # Summary Deck (Round 2)
+ ┃ ┣ 📄 Recommendation_matrix.pdf   # Strategic Decision Matrix
+ ┃ ┗ 📄 analysis_report.pdf         # Comparative Analysis
+ ┃
+ ┗ 📂 03_Results
+   ┣ 📂 Figures                     # Scientific plots (Scatter, Heatmap, Neon Curve)
+   ┣ 📄 BalanceZero_Dashboard.html  # Interactive Dark Mode UI
+   ┣ 📄 Simulation_Dataset.csv      # Evidence data (10,000 runs)
+   ┗ 📄 Validation_Log.txt          # Verification proof (11.3% match)
+
+```
+
+---
+
+## ⚙️ 4. How to Run the Code
+
+### **Prerequisites**
+
+* Python 3.8 or higher
+* Libraries listed in `requirements.txt`
+
+### **Step 1: Install Dependencies**
+
+Open your terminal in the `01_Code_Base` folder and run:
+
+```bash
 pip install -r requirements.txt
 
-STEP 2: Execute the Engine
-Run the python script:
+```
+
+### **Step 2: Execute the Engine**
+
+Run the python script to start the simulation:
+
+```bash
 python BalanceZero_Engine.py
 
-STEP 3: View Results
-The code will verify the 11.3% deficiency match and populate the
-"03_Results" folder with the datasets, HTML reports, and figures.
+```
 
-5. VERIFICATION LOGIC
+### **Step 3: View Results**
+
+The engine will verify the math and populate the `03_Results` folder. Open **`BalanceZero_Dashboard.html`** in your browser to view the interactive results.
 
 ---
 
-The engine includes a hard-coded Integrity Check module. Upon launch, it
-inputs the specific values from the Problem Statement:
+## 🔍 5. Verification Logic
 
-- Initial API: 98.0%
-- Stressed API: 82.5%
+The engine includes a **hard-coded Integrity Check module**. Upon launch, it inputs the specific hypothetical values from the Novartis Problem Statement:
 
-It then confirms the calculated Deficiency (AMBD) is 11.3%. This ensures
-mathematical alignment with the challenge prompt.
+* **Initial API:** `98.0%`
+* **Stressed API:** `82.5%`
+
+It validates that the **Calculated Deficiency (AMBD)** matches exactly **11.3%**. This ensures the computational model aligns perfectly with the challenge prompt before running the larger simulation.
+
+```
+
+```
+
