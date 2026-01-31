@@ -1,0 +1,29 @@
+
+    <!DOCTYPE html><html><head><style>
+      body { background-color: #121212; font-family: 'Segoe UI', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+      .dashboard { width: 1000px; background-color: #1E1E1E; border: 1px solid #333; padding: 20px; box-shadow: 0 0 50px rgba(0,0,0,0.8); color: white; }
+      .header { display: flex; justify-content: space-between; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+      .badge { background: #00E676; color: black; padding: 5px 10px; font-weight: bold; border-radius: 4px; }
+      .grid { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 20px; }
+      .panel { background: #252526; padding: 20px; border: 1px solid #3E3E42; }
+      .val { font-size: 28px; font-weight: bold; margin-top: 5px; }
+      .terminal { background: black; color: #00FF41; font-family: 'Courier New'; padding: 15px; font-size: 14px; line-height: 1.5; }
+      .alert { background: rgba(255, 59, 48, 0.2); border: 2px solid #FF3B30; color: #FF453A; text-align: center; padding: 20px; }
+    </style></head><body>
+    <div class="dashboard">
+      <div class="header"><div style="font-size: 24px; font-weight: bold;">BalanceZero: Analytical Decision Engine</div><div class="badge">v2.0 (Track 1)</div></div>
+      <div class="grid">
+        <div class="panel">
+          <div style="color: #888;">Initial API</div><div class="val" style="color: #569CD6;">98.0%</div>
+          <div style="color: #888; margin-top: 20px;">Stressed API</div><div class="val" style="color: #E2C08D;">82.5%</div>
+          <div style="color: #888; margin-top: 20px;">Total Degradants</div><div class="val" style="color: #C586C0;">4.9%</div>
+        </div>
+        <div class="terminal">
+          > INITIATING BALANCE_ZERO ENGINE...<br>> LOADING CONFIG: TRACK_1_OPTIMIZATION<br>> [CHECK 1] INITIAL_API_PURITY: 98.0%<br>
+          > STATUS: FAILED -> BLOCKING 'SMB' METHOD<br>> [CHECK 2] CALCULATING AMB...<br>> [CHECK 3] CALCULATING DEFICIENCY (AMBD)<br>
+          > RESULT: 11.3%<br>> THRESHOLD CHECK: 11.3% > 10.0%<br>> <span style="background:red; color:white;">CRITICAL ALERT: SIGNIFICANT MASS LOSS</span>
+        </div>
+        <div class="alert"><div style="font-size: 40px;">⚠️</div><h3>INVESTIGATION REQUIRED</h3><p>Automated logic detected an 11.3% mass deficiency.</p></div>
+      </div>
+    </div></body></html>
+    
